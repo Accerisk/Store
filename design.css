@@ -1,0 +1,170 @@
+body{
+background-color: #d2d6ce;
+margin: 0;
+}
+
+nav{
+    width: 100%;
+
+}
+ul{
+    list-style-type: none;
+
+}
+
+
+#navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    border: 0cap solid #e7e7e7;
+    background-color: lightslategray;
+
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+    color:black;
+  }
+
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+ #wrapper{
+
+    margin: 0 auto; /* Corrected margin value */
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    margin-top:30px;
+    background-color:#1abc9c;
+}
+
+#products{
+    margin: 0px;
+    padding: 0px;
+    background-color:#059b7db6;
+    overflow:auto;
+    width: 100%;
+    
+}
+
+
+h1{
+    text-align: center;
+}
+
+span{
+    display:block;
+    margin:3px;
+}
+
+span.name{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+span.price{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.amount, .totalPrice{
+    background-color:#e6e6e6b6;
+    width: 35px;
+    
+}
+
+.item_list{
+    margin: 5px;
+    display:block;
+}
+
+
+
+.item_list:hover{
+    background-color:#16997fb6;
+}
+
+.search_box{
+    margin:20px;
+    font-weight: bold;
+}
+
+table,th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+table{
+    margin-left:1%;
+    width:98%;
+    align-self: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+th{
+
+    padding:8px;
+    margin:5px;
+    font-size: large;
+}
+
+td{
+    padding:5px;
+    margin:5px;
+    text-align: center;
+    color: white;
+}
+
+.form-popup {
+ position: fixed;
+ display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(151, 251, 151,.9);
+     /* Background color for the div */
+    width: 85%; /* Set the width as desired */
+    height: 80%; /* Set the height as desired */
+    text-align: center; /* Center the content horizontally */
+    padding: 20px; /* Add some padding for better appearance */
+  border: 3px solid #f1f1f1;
+
+}
+
+.form-container {
+    margin:2%;
+    padding: 20px;
+    background-color: gray;
+    border: 3px solid #f1f1f1;
+  }
+
+
+  .form-container input[type=text] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }

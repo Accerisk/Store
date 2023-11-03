@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+        <nav>
+            <ul id="navigation">
+    <li style="float: left;"><a class="active" href="main.html">Home</a></li>
+                <li style="float: right;"><a href="#">Create a List</a></li>
+                <li style="float: right;" > <a style="color:lightslategray;"href="database.html">Database</a></li>
+            </ul>
+        </nav>
+
+    <div id="wrapper">
+        <br>
+        <h1>Product List</h1>
+        <div class="search_box">
+            <label for="search">Search</label>
+            <input type="text" class="search" id="searchBox" style="background-color:#e6e6e6b6;">
+        </div>
+
+
+        <div id="products">
+         <ul id="ulList" >
+
+            <li class="item_list">
+                <span class="name">Dutchmill Malaki</span>
+                <span class="price">22.00</span>
+                <span class="qty">
+                    <label for="amount">Quantity:&nbsp;&nbsp;&nbsp;</label>
+                    <input type="number" class="amount" name="amount"  min="1">
+                </span>
+                <span class="qty">
+                    <label for="amount">Total Price:</label>
+                    <input type="text" class="totalPrice" size ="1" readonly>
+                </span>
+
+             </li>
+
+            <li class="item_list">
+                <span class="name">Dutchmill Maliit</span>
+                <span class="price">12.00</span>
+                <span class="qty">
+                    <label for="amount">Quantity:&nbsp;&nbsp;&nbsp;</label>
+                    <input type="number" class="amount" name="amount"  min="1">
+                </span>
+                <span class="qty">
+                    <label for="amount">Total Price:</label>
+                    <input type="text" class="totalPrice" size ="1" readonly>
+                </span>
+                
+            </li>
+            
+            <li class="item_list">
+                <span class="name">Nissin Wafer</span>
+                <span class="price">3.00</span>
+                    <span class="qty">
+                        <label for="amount">Quantity:&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" class="amount" name="amount"  min="1">
+                    </span>
+                    <span class="qty">
+                        <label for="amount">Total Price:</label>
+                        <input type="text" class="totalPrice" size ="1" readonly>
+                    </span>
+
+             </li>
+
+
+            <li class="item_list">
+                <span class="name">Flat Tops</span>
+                <span class="price">5.00</span>
+                <span class="qty">
+                    <label for="amount">Quantity:&nbsp;&nbsp;&nbsp;</label>
+                    <input type="number" class="amount" name="amount"  min="1">
+                </span>
+                <span class="qty">
+                    <label for="amount">Total Price:</label>
+                    <input type="text" class="totalPrice" size ="1" readonly>
+                </span>
+                
+            </li>
+
+            
+
+
+            </ul>
+        </div>
+    </div>
+    <script src="controls.js"></script>
+</body>
+</html>
